@@ -6,9 +6,8 @@
     (Developed as part of a course on scientific computing.)
 
     Author  :  Nishanth Jayram (https://github.com/njayram44)
-	Date    :  January 5, 2020
+    Date    :   January 6, 2021
 """
-
 import numpy as np
 import matplotlib.pyplot as plt
 
