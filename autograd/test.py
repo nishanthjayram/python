@@ -8,6 +8,7 @@
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
+import autograd as ag
 
 # We initialize a set of points to test our autogradient.
 points = [
@@ -19,11 +20,12 @@ points = [
     (4, 6.2),
     (5, 9.1),
 ]
-va = V(0.)
-vb = V(0.)
-vc = V(0.)
-vx = V(0.)
-vy = V(0.)
+
+va = ag.V(0.)
+vb = ag.V(0.)
+vc = ag.V(0.)
+vx = ag.V(0.)
+vy = ag.V(0.)
 
 def plot_points(points):
     """Plots and generates a pictorial representation of a set of points."""
